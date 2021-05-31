@@ -19,7 +19,7 @@ jobs:
         go-version: 1.15
       
     - name: Format
-      run: go fmt
+      run: gofmt -w ./...
         
     - name: Test
       run: go test -v ./...
