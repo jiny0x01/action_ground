@@ -2,12 +2,8 @@ package main
 
 import "fmt"
 
-func makeConflict() {
-	fmt.Println("This is occur go fmt error")
-}
-
 func main() {
-	fmt.Println("Hello Golang!")
-	fmt.Println("Hello Golang!")
-	fmt.Println("Hello Golang!")
+	i := 5
+	fmt.Println((i))
+	fmt.Printf("hello, world\n")
 }
